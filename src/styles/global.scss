@@ -1,0 +1,19 @@
+//app
+@import './app/app.scss';
+
+//pages
+@import './pages/home.scss';
+@import './pages/search-page.scss';
+
+//layout
+@import './layout/page-layout.scss';
+@import './layout/modal-layout.scss';
+
+//modal
+@import './modal/connect-wallet-modal.scss';
+
+//components
+@import './components/footer.scss';
+@import './components/nav.scss';
+@import './components/adventure-card.scss';
+@import './components/wallet-card.scss';

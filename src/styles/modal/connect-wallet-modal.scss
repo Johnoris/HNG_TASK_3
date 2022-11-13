@@ -1,0 +1,33 @@
+.connect-wallet{
+    background-color: #ffffff;
+    height: 329.00006103515625px;
+    width: 600px;
+    border-radius: 16px;
+    &__header{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 27px 32px;
+        border-bottom: 1px solid #CFD8DC;
+        h3{
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 30px;
+            color: #333333;
+        }
+    }
+    &__main{
+        padding: 32px;
+        h5{
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 20px;
+            margin-bottom: 16px;
+        }
+        &__card-wrapper{
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+    }
+}

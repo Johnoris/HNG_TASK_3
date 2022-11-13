@@ -1,0 +1,21 @@
+.wallet-card{
+    border: 1px solid #CFD8DC;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #F8F9FA;
+    padding: 12px 20px 12px 20px;
+    border-radius: 12px;
+    &__main{
+        display: flex;
+        gap: 16px;
+        align-items: center;
+        h4{
+            font-family: Sora;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 23px;
+        }
+    }
+
+}

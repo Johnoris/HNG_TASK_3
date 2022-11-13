@@ -1,0 +1,70 @@
+.search-page{
+    padding: 115px 100px 92px 100px;
+    @media (max-width: 1439px) {
+        padding: 115px 75px 92px 75px;
+    }
+    @media (max-width: 1390px) {
+        padding: 115px 50px 92px 50px;
+    }
+    @media (max-width: 1390px) {
+        padding: 115px 50px 92px 50px;
+    }
+    @media (max-width: 800px) {
+        padding: 115px 20px 92px 20px;
+    }
+    &__header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        ul{
+            display: flex;
+            gap: 48px;
+            li{
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 25px;
+                color: #434343;
+            }
+            .md-none{
+                @media (max-width: 1242px) {
+                    display: none;
+                }
+            }
+            .sm-none{
+                @media (max-width: 800px) {
+                    display: none;
+                }
+            }
+            @media (max-width: 475px) {
+                display: none;
+            }
+        }
+        button{
+            height: 48px;
+            width: 161px;
+            border-radius: 8px;
+            border: 1px solid #B4B4B4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 40px;
+            background-color: #ffffff;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 19px;
+            color: #333333;
+            @media (max-width: 475px) {
+                width: 100%;
+                justify-content: space-between;
+                padding: 0 50px;
+            }
+        }
+    }
+    &__card-wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 24px;
+        margin-top: 64px;
+    }
+}
