@@ -14,7 +14,7 @@
             gap: 40px;
             align-items: center;
         }
-        @media (max-width: 620px) {
+        @media (max-width: 635px) {
             padding: 125px 30px 67px 30px;
         }
         @media (max-width: 375px) {
@@ -114,8 +114,8 @@
     }
     &__next-adventure{
         padding: 58px 100px 53px 100px;
-        @media (max-width: 1130px) {
-            padding: 58px 50px 53px 50px;
+        @media (max-width: 1439px) {
+            padding: 58px 30px 53px 30px;
         }
         h2{
             font-size: 48px;
